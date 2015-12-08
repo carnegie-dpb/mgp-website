@@ -1,0 +1,144 @@
+/* HTML Color Scheme */
+/* Bronze - CC9933 */
+/* Purple - 660066 */
+/* Green - 339900 */
+
+/* General attributes */
+body { font-family: sans-serif; margin: 5px; padding: 0px; background: url("/images/corn1.jpg") #FFFFFF; }
+
+h1 { color: #339900; margin: 0px; text-align: center; border-bottom: solid 3px; padding: 5px;} 
+h2 { color: #CC9933; margin: 0px; padding: 10px 0 5px 0; }
+h3 { color: #CC9933; margin: 0px; padding:  5px 0; }
+h4 { color: #339900; font-size: 19px; margin: 7px; line-height: 23px; text-align:center;}
+
+p { line-height: 18px; }
+
+/* Link colors */
+a { color: #339900; text-decoration: none; }
+a:hover { color: #CC9933; text-decoration: underline; }
+
+
+.main {
+	margin: auto;
+	width: 1200px; border-collapse: collapse;
+}
+
+.title {
+	padding: 10px;
+	font-size: 28px; font-weight: bold;
+	color: #c93;
+}
+
+/* autohandler: Top menu of main page */
+.top_menu {
+	border: solid 3px #339900; background-color: #660066; padding: 10px;
+}
+.top_menu span { color: #CC9933; font-size: 18px; font-weight: bold; padding: 10px; }
+.top_menu a { font-size: 18px; font-weight: bold; padding: 10px; }
+
+.links { }
+
+.side_menu {border: 3px solid #339900; width: 100px; height: 768px; background-image: url(/images/corn1.jpg); }
+
+/* Main content window */
+.main_content {
+	background-color: #ffffff;
+	border-top: none; border-right: solid 3px #339900; border-bottom: solid 3px #339900; border-left: solid 3px #339900;
+	padding: 20px;
+}
+.main_content tr { vertical-align: top;}
+
+/* data_side_menu.html */
+.data_side_menu {border: 3px solid #339900; width: 100px; height: 768px; background-color: #FFFFFF; vertical-align: top; color: #CC9900; text-align:center;}
+td.data_menu_title { background: #660066; font-size: 17px; line-height: 20px; padding: 3px; margin: 0px; border: 3px solid }
+td.data_menu { padding-top: 10px; font-size: 23px; }
+
+
+/* index.html: Make sure bottom division of index page does not wrap around other divs. */
+#bottom_div { clear: both;}
+/* Main table that contains all elements */
+
+/* Make sure each content window maintains a specific height*/
+table.standard { height: 768px; }
+table.standard ol { font-size: 20px;}
+
+/* Metagenesis and transcriptome pictures properties */
+.metagen { width: 500px;}
+.trans { width: 475px; }
+
+/* image float divs */
+.float_r { float: right; padding: 20px; width: 550px; text-align: center; }
+.float_r p { text-align: left; font-style:italic; }
+.float_l { float: left; padding: 20px; width: 550px; text-align: center; }
+.float_l p { text-align: left; }
+
+/* footer.html:  Row of university links at bottom */
+.bottom { text-align: center; border-top: 1px solid #390; border-bottom: 1px solid #390; }
+.bottom img { border: none; padding:5px 10px; vertical-align:middle; }
+
+
+/* people.html */
+table.people {margin: auto; width:700px;}
+table.people ul { font-size: 17px; }
+table.people td { vertical-align: middle; }
+table.people td.logo { text-align: right; }
+
+/* aims.html */
+ol.aims { font-size: 18px; }
+
+/* maker.html: spreadhseet creation table */
+table.data { border: solid 1px #000000; border-collapse: collapse; width: 900px; font-size: 14.5px; margin-top: 20px;}
+table.data td { padding: 3px; border: solid 1px #000000; width: 100px}
+table.data tr { height: 30px;}
+.data_center td { text-align: center;}
+
+
+/* file_processor.html: data display table properties */
+table.interpret { font-size: 15px; line-height: 15px; border: solid 1px #000000; border-collapse: collapse;}
+table.interpret td {border: solid 1px #000000 }
+table.ac_arm { font-size: 18px; line-height: 15px; border: solid 1px #000000; border-collapse: collapse; margin-left: auto; margin-right: auto;}
+table.ac_arm td {border: solid 1px #000000 }
+
+/* Row background colors */
+.bronze_background { background-color: #CC9900}
+.white_background { background-color: #FFFFFF}
+.green_background { background-color: #339900;}
+
+/* Error text properties */
+.upload_error { color: #FF0000; font-size: 20px; }
+.bold_font {font-weight: bold; padding: 5px}
+
+
+/* upload_db.html: uploaded information table header */
+.uploaded {font-size: 18px; line-height: 17px; border: solid 1px #000000; border-collapse: collapse; }
+.uploaded td {border: solid 1px #000000; padding: 3px;}
+.uploaded tr {border-bottom: solid 4px #000000; }
+.header {font-weight: bold; padding: 3px; }
+.key_bronze { background-color: #CC9900; width: 50px;}
+.key_green { background-color: #339900; width: 50px;}
+
+/* taker.html: error text properties */
+table.taker_error { font-size: 20px; color: #FF0000; padding-top: 40px;}
+
+/* image.html */
+.image_add { font-size: 18px; border: solid 1px #000000; border-collapse: collapse; }
+.image_add td {border: solid 1px #000000; padding: 5px;}
+
+/* image_processor.html */
+.display_image { font-size: 18px; line-height: 15px; border: solid 1px #000000; border-collapse: collapse;}
+.display_image td {border: solid 1px #000000; padding: 7px; }
+.max {max-width: 800px}
+
+/* experimental_details.html */
+table.experiment { border: solid 1px #000000;margin-left: auto; margin-right: auto;border-collapse: collapse; width: 750px; font-weight:bold}
+table.experiment td { border: solid 1px #000000; padding: 5px; text-align: center;}
+.experiment_head { font-weight: bold; font-size: 18px;}
+table.exp2 { width:600px; margin-left:auto; margin-right:auto; font-weight:bold }
+td.image_line { text-align: center; vertical-align:middle }
+p.subheading { color: #339900 }
+td.numbers { width: 50px; font-weight:bold }
+
+/* display_launchpad_ac.html */
+td.launchpad_ac_attribute { color: #339900;font-size: 15px; font-weight: bold; padding-right: 20px; padding-bottom: 10px; width: 20px }
+hr.green_bar { color: #339900; background-color: #339900; height: 3px }
+
